@@ -31,6 +31,7 @@ public class ForWhile {
 				System.out.println("HTMLはプログラミング言語ではありません。");
 				 break;
 			 }
+			 System.out.println(language);
 		}
 	}
 }
