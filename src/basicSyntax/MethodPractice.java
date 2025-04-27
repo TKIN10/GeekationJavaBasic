@@ -5,7 +5,18 @@ public class MethodPractice {
 	public static void main(String[] args) {
 		int a = 2;
 		int b = 1;
-		calculationResult(a, b);
+		
+		int resultAdd = additionMethod(a, b);
+		calculationResult(resultAdd);
+		
+		int resultSub = subtractionMethod(a, b);
+		calculationResult(resultSub);
+		
+		int resultMul = multiplicationMethod(a, b);
+		calculationResult(resultMul);
+		
+		int resultDiv = divisionMethod(a, b);
+		calculationResult(resultDiv);
 	}
 	
 	public static int additionMethod(int a, int b) {
@@ -24,10 +35,7 @@ public class MethodPractice {
 		return a / b;
 	}
 	
-	public static void calculationResult(int a, int b) {
-		System.out.println("計算結果は" + additionMethod(a, b) + "です。");
-		System.out.println("計算結果は" + subtractionMethod(a, b) + "です。");
-		System.out.println("計算結果は" + multiplicationMethod(a, b) + "です。");
-		System.out.println("計算結果は" + divisionMethod(a, b) + "です。");
+	public static void calculationResult(int result) {
+		System.out.println("計算結果は" + result + "です。");
 	}
 }
