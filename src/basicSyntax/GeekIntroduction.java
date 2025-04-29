@@ -23,13 +23,13 @@ public class GeekIntroduction {
 			if (i % 3 == 0 && i % 5 == 0) {
 				System.out.println(i + "は3の倍数かつ5の倍数です。");
 				continue;
-	        } else if (i % 3 == 0) {
-	        	System.out.println(i + "は3の倍数です。");
-	        	continue;
-	        } else if (i % 5 == 0) {
-	        	System.out.println(i + "は5の倍数です。");
-	        	continue;
-	        }
-        }
+			} else if (i % 3 == 0) {
+				System.out.println(i + "は3の倍数です。");
+				continue;
+			} else if (i % 5 == 0) {
+				System.out.println(i + "は5の倍数です。");
+				continue;
+			}
+		}
 	}
 }
