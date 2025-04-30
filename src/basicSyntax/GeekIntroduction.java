@@ -30,6 +30,7 @@ public class GeekIntroduction {
 				System.out.println(i + "は5の倍数です。");
 				continue;
 			}
+			System.out.println(i);
 		}
 	}
 }
